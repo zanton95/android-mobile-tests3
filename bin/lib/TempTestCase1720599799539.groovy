@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/pz/xh7xf6ns0gj48dnk0g_c1f7m0000gq/T/Katalon/Test Cases/Verify Correct Alarm Message/20240709_164240/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/pz/xh7xf6ns0gj48dnk0g_c1f7m0000gq/T/Katalon/20240710_112319/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Verify Correct Alarm Message', new TestCaseBinding('Test Cases/Verify Correct Alarm Message',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

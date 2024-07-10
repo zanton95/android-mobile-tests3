@@ -13,7 +13,7 @@ def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AppPath, RunConfi
 
 Mobile.startApplication(appPath, false)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/android.widget.ImageButton'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/android.widget.ImageButton'), 120)
 
 Mobile.closeApplication()
 
