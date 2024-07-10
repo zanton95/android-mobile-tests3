@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'androidapp/Appdome_com.hartman.timecard_87b43399.apk'</initValue>
+      <initValue>'androidapp/TimeCard2.apk'</initValue>
       <name>G_AppPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
