@@ -26,9 +26,40 @@ def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AppPath, RunConfi
 
 Mobile.startApplication(appPath, false)
 
-not_run: Mobile.verifyElementExist(findTestObject('Object Repository/android.widget.ImageButton'), 120)
-
-WebUI.delay(20)
+WebUI.delay(3)
 
 Mobile.closeApplication()
 
+WebUI.delay(10)
+
+Mobile.startApplication(appPath, false)
+
+WebUI.delay(3)
+
+Mobile.closeApplication()
+
+WebUI.delay(10)
+
+Mobile.startApplication(appPath, false)
+
+WebUI.delay(3)
+
+Mobile.closeApplication()
+
+WebUI.delay(10)
+
+Mobile.startApplication(appPath, false)
+
+WebUI.delay(3)
+
+Mobile.closeApplication()
+
+WebUI.delay(10)
+
+Mobile.startApplication(appPath, false)
+
+WebUI.delay(3)
+
+Mobile.closeApplication()
+
+WebUI.delay(10)
