@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.ImageButton</name>
+   <name>android.widget.TextView - You worked today 0000 hours</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,24 +12,32 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.ImageButton</value>
-      <webElementGuid>ae591ed8-d554-406b-96c9-2e1129fb04e8</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>c5310f8d-8b8b-485f-aa23-1555f5f55cd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>eb7ce48a-600a-4bf8-b3dd-677258cd57f3</webElementGuid>
+      <value>3</value>
+      <webElementGuid>4c6353f0-625f-45ee-b48e-7d2ddd151da8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You worked today 00:00 hours</value>
+      <webElementGuid>726d06a5-729f-44b6-87aa-d42cbd183d14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.hartman.timecard:id/enterExitButton</value>
-      <webElementGuid>80d15ccc-ca65-4ee7-b0da-9f4b648f26ad</webElementGuid>
+      <value>com.hartman.timecard:id/timeWorkedextView</value>
+      <webElementGuid>51d3116b-dc28-439a-8769-fd74e988e3f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.hartman.timecard</value>
-      <webElementGuid>e1b3032b-7065-4073-ae0f-2878f9757ae6</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>content-desc</name>
-      <type>Main</type>
-      <value>top image</value>
-      <webElementGuid>c8f0c227-b13a-4e66-a71f-6d5540e366f2</webElementGuid>
+      <webElementGuid>71b58b61-fb4c-4dd8-9b9c-5b115a556aba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cc8a20aa-36a7-4e30-b62c-4556d474ec0b</webElementGuid>
+      <webElementGuid>07bfdd66-08fa-4944-8567-05bc925dd28f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>32a87c01-f2fc-4195-9350-0f3e13a6782f</webElementGuid>
+      <webElementGuid>56a934ed-530e-4411-9ac7-ad5c8d7e6d61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>3014f53a-c960-4101-b0e1-443c67c033a8</webElementGuid>
+      <value>false</value>
+      <webElementGuid>928bb2ed-9ed6-46d9-9b8a-ef660679b0e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,15 +77,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d0ebe1b3-8331-4009-9bf0-a728b390f1b0</webElementGuid>
+      <webElementGuid>a8c811e0-07c5-43b1-a213-60b8b4466913</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>68739b74-9c40-4e4d-a2d6-155fd071da59</webElementGuid>
+      <value>false</value>
+      <webElementGuid>e4d76cee-a0bf-4ce0-8424-73552ef35511</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1fa0f6e1-eab1-4773-be92-13e1ee3bafa9</webElementGuid>
+      <webElementGuid>7aa33b22-5727-4cca-a8a4-a5c5b886ecfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1b947336-0b2b-4125-96aa-3df4d169d15d</webElementGuid>
+      <webElementGuid>8b9f1243-331b-45f2-bc0d-2dd6b6158bbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>60f070b3-1660-41a8-819b-209218a5c8e7</webElementGuid>
+      <webElementGuid>98d26aa7-3967-4460-8469-93e7f47a6caa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5ce4c099-36a1-4cb0-bb16-58329b774b59</webElementGuid>
+      <webElementGuid>abd369bf-ea76-4e81-9b0b-6dd9e66c1665</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,47 +125,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3a5eab21-3a88-4f4a-a96e-3471704a08e7</webElementGuid>
+      <webElementGuid>89e22c72-f6fd-4957-b49b-b2a7e014c0ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>244</value>
-      <webElementGuid>096041cc-8775-41c6-9ce4-274731ded471</webElementGuid>
+      <value>59</value>
+      <webElementGuid>fa6afb7a-5dba-469c-8331-aa24edabf006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>439</value>
-      <webElementGuid>b885382c-0c93-4e98-97a3-e39b7f9db21f</webElementGuid>
+      <value>775</value>
+      <webElementGuid>4648bf31-a96f-476d-8a16-fca5b77282d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>231</value>
-      <webElementGuid>29477165-b0cf-4743-aa3c-8e465db0f8fd</webElementGuid>
+      <value>601</value>
+      <webElementGuid>1f5f306e-4a9e-4baa-a087-00bd6e57ca74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>231</value>
-      <webElementGuid>acd37afc-766b-4540-80ca-340057271537</webElementGuid>
+      <value>54</value>
+      <webElementGuid>45f6c7fc-4e4c-4df7-9022-e57af32cb128</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[244,439][475,670]</value>
-      <webElementGuid>82739d10-e86b-41ad-ac71-ed1152a67f32</webElementGuid>
+      <value>[59,775][660,829]</value>
+      <webElementGuid>83d79fef-3632-4964-8cc5-fbc629a39bc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -173,70 +173,65 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>28767e53-295a-47db-8e8b-962b728077d3</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value></value>
-      <webElementGuid>2736c40f-0440-41f5-937d-92803cca0594</webElementGuid>
+      <webElementGuid>566442e5-c62b-442d-b834-f726a31f793e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.support.v4.view.ViewPager[1]/android.widget.RelativeLayout[1]/android.widget.ImageButton[1]</value>
-      <webElementGuid>db3e4929-b316-4e30-a28e-541be27dc8d9</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.support.v4.view.ViewPager[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>cc07bdff-74ec-41b0-b679-bf63fa09259f</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.hartman.timecard:id/enterExitButton' and (@text = '' or . = '')]</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'You worked today 00:00 hours' or . = 'You worked today 00:00 hours') and @resource-id = 'com.hartman.timecard:id/timeWorkedextView']</locator>
    <locatorCollection>
       <entry>
-         <value>//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.hartman.timecard:id/enterExitButton' and (@text = '' or . = '')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.support.v4.view.ViewPager[1]/android.widget.RelativeLayout[1]/android.widget.ImageButton[1]</value>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value>com.hartman.timecard:id/enterExitButton</value>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.ImageButton&quot;).description(&quot;top image&quot;).resourceId(&quot;com.hartman.timecard:id/enterExitButton&quot;).packageName(&quot;com.hartman.timecard&quot;).enabled(true).clickable(true).longClickable(false).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(1)</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.support.v4.view.ViewPager[1]/android.widget.RelativeLayout[1]/android.widget.TextView[1]</value>
       </entry>
       <entry>
          <key>CLASS_NAME</key>
-         <value>android.widget.ImageButton</value>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <value>android.widget.TextView</value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.hartman.timecard:id/enterExitButton' and (@text = '' or . = '')]</value>
+         <value>//*[@class = 'android.widget.TextView' and (@text = 'You worked today 00:00 hours' or . = 'You worked today 00:00 hours') and @resource-id = 'com.hartman.timecard:id/timeWorkedextView']</value>
       </entry>
       <entry>
          <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>
-         <value>top image</value>
+         <value></value>
       </entry>
       <entry>
          <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>com.hartman.timecard:id/timeWorkedextView</value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;You worked today 00:00 hours&quot;).resourceId(&quot;com.hartman.timecard:id/timeWorkedextView&quot;).packageName(&quot;com.hartman.timecard&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(3)</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
