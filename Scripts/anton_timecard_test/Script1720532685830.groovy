@@ -37,3 +37,28 @@ Mobile.startApplication(appPath, false)
 WebUI.delay(3)
 
 Mobile.closeApplication()
+
+WebUI.delay(10)
+
+Mobile.startApplication(appPath, false)
+
+WebUI.delay(3)
+
+Mobile.closeApplication()
+
+WebUI.delay(10)
+
+Mobile.startApplication(appPath, false)
+
+WebUI.delay(3)
+
+Mobile.closeApplication()
+
+WebUI.delay(10)
+
+Mobile.startApplication(appPath, false)
+
+WebUI.delay(3)
+
+Mobile.closeApplication()
+
